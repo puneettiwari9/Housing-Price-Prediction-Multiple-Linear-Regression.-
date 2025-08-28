@@ -4,12 +4,16 @@ It uses the Kaggle Housing Dataset, trains a regression model with scikit-learn,
 
 Features
 
-✔️ Load and preprocess dataset (handle categorical features like mainroad)
+✔️ Load and preprocess dataset (handle categorical features like mainroad
+
 ✔️ Train a Multiple Linear Regression model with scikit-learn
+
 ✔️ Evaluate model using MSE and R² Score
+
 ✔️ 3D scatter plot visualization for area, bedrooms, and bathrooms vs predicted price
+
 ✔️ User interactive input to predict house price
-✔️ (Optional) Store predictions in a SQLite database
+
 
 📂 Project Structure
 housing-price-prediction/
@@ -44,9 +48,13 @@ Your “answer” is the predicted price.
 
 INPUT AREA :
 Enter area in feets (numeric): 3000
+
 Enter number of bedrooms (numeric): 3
+
 Enter number of bathrooms (numeric): 2
+
 Enter number of parking spaces (numeric): 1
+
 Is there a main road? (yes/no): yes
 
 
